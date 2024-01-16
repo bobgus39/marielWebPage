@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./Header.css";
 import { NavLink, useLocation } from "react-router-dom";
-import ImgHeader from "../../marielWebPage/img/mariuHeader.png";
+import ImgHeader from "../../img/mariuHeader.png";
 
 function Header() {
   const [menu, setMenu] = useState(true);
