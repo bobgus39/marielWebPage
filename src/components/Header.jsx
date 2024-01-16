@@ -5,7 +5,7 @@ import { NavLink, useLocation } from "react-router-dom";
 function Header() {
   const [menu, setMenu] = useState(true);
   const location = useLocation();
-
+  console.log(location);
   useEffect(() => {
     const handleResize = () => {
       const width = window.innerWidth;
@@ -66,7 +66,9 @@ function Header() {
             <li>
               <NavLink
                 className={
-                  location.pathname !== "/panes" ? "menuNav" : "activated"
+                  location.pathname !== "/marielWebPage.github.io/panes"
+                    ? "menuNav"
+                    : "activated"
                 }
                 to="/panes"
               >
@@ -75,7 +77,11 @@ function Header() {
             </li>
             <li>
               <NavLink
-                className={location.pathname !== "/" ? "menuNav" : "activated"}
+                className={
+                  location.pathname !== "/marielWebPage.github.io"
+                    ? "menuNav"
+                    : "activated"
+                }
                 to="/"
               >
                 Menu
