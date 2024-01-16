@@ -9,14 +9,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route
-            path="/marielWebPage.github.io"
-            element={<Home></Home>}
-          ></Route>
-          <Route
-            path="/marielWebPage.github.io/panes"
-            element={<Panes></Panes>}
-          ></Route>
+          <Route path="/" element={<Home></Home>}></Route>
+          <Route path="/panes" element={<Panes></Panes>}></Route>
         </Routes>
       </BrowserRouter>
     </>

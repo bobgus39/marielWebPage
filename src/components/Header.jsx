@@ -66,9 +66,7 @@ function Header() {
             <li>
               <NavLink
                 className={
-                  location.pathname !== "/marielWebPage/panes"
-                    ? "menuNav"
-                    : "activated"
+                  location.pathname !== "/panes" ? "menuNav" : "activated"
                 }
                 to="/panes"
               >
@@ -77,11 +75,7 @@ function Header() {
             </li>
             <li>
               <NavLink
-                className={
-                  location.pathname !== "/marielWebPage"
-                    ? "menuNav"
-                    : "activated"
-                }
+                className={location.pathname !== "/" ? "menuNav" : "activated"}
                 to="/"
               >
                 Menu
