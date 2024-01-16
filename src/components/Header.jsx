@@ -27,7 +27,7 @@ function Header() {
 
   return (
     <div className="header">
-      <NavLink to="/">
+      <NavLink to="/marielWebPage">
         <img
           className="imgHeader"
           src="../../img/mariuHeader.png"
@@ -66,17 +66,23 @@ function Header() {
             <li>
               <NavLink
                 className={
-                  location.pathname !== "/panes" ? "menuNav" : "activated"
+                  location.pathname !== "/marielWebPage/panes"
+                    ? "menuNav"
+                    : "activated"
                 }
-                to="/panes"
+                to="/marielWebPage/panes"
               >
                 Carta de panes
               </NavLink>
             </li>
             <li>
               <NavLink
-                className={location.pathname !== "/" ? "menuNav" : "activated"}
-                to="/"
+                className={
+                  location.pathname !== "/marielWebPage"
+                    ? "menuNav"
+                    : "activated"
+                }
+                to="/marielWebPage"
               >
                 Menu
               </NavLink>

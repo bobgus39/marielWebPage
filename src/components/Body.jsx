@@ -11,7 +11,7 @@ function Body() {
         <div className="portada">
           <div className="textOver">
             <h2 className="fornMariu">FORN MARIU</h2>
-            <NavLink to="/panes">
+            <NavLink to="/marielWebPage/panes">
               <button className="btnCart">Ver panes</button>
             </NavLink>
           </div>
@@ -37,7 +37,7 @@ function Body() {
             cultiu. Vine a conèixer-nos a Ibi, Alacant, i gaudeix de pa i dolços
             tradicionals elaborats artesanalment.
           </p>
-          <NavLink to="/panes">
+          <NavLink to="/marielWebPage/panes">
             <button className="btnCart">Ver panes</button>
           </NavLink>
         </div>
