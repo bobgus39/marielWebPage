@@ -1,5 +1,5 @@
 import React from "react";
-
+import Whatsapp from "../../marielWebPage/img/whatsapp.png";
 const WhatsappButton = ({ phoneNumber, message }) => {
   const handleClick = () => {
     const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
@@ -11,11 +11,7 @@ const WhatsappButton = ({ phoneNumber, message }) => {
   return (
     <button className="btn" onClick={handleClick}>
       {" "}
-      <img
-        className="whatsapp"
-        src="../../marielWebPage/img/whatsapp.png"
-        alt="whatsapp"
-      />
+      <img className="whatsapp" src={Whatsapp} alt="whatsapp" />
     </button>
   );
 };

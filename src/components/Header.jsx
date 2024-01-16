@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./Header.css";
 import { NavLink, useLocation } from "react-router-dom";
+import ImgHeader from "../../marielWebPage/img/mariuHeader.png";
 
 function Header() {
   const [menu, setMenu] = useState(true);
@@ -28,11 +29,7 @@ function Header() {
   return (
     <div className="header">
       <NavLink to="/marielWebPage">
-        <img
-          className="imgHeader"
-          src="../../marielWebPage/img/mariuHeader.png"
-          alt="Forn Mariu"
-        />
+        <img className="imgHeader" src={ImgHeader} alt="Forn Mariu" />
       </NavLink>
       {menu ? (
         <label
