@@ -16,7 +16,7 @@ function Body() {
             </NavLink>
           </div>
           <img
-            src="https://github.com/bobgus39/marielWebPage/blob/main/img/portada.png"
+            src="/bobgus39/marielWebPage/blob/main/img/portada.png"
             alt="panetone"
           ></img>
         </div>
