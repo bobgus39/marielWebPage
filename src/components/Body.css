@@ -1,0 +1,125 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4em;
+  width: 100%;
+  height: auto;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.portada {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 60%;
+  height: 20em;
+  z-index: 4;
+}
+
+.whatsapp {
+  width: 2em;
+}
+
+.text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btnCart {
+  color: white;
+  background-color: rgb(194, 117, 117);
+  border: none;
+  width: 10em;
+  height: 3em;
+}
+
+.btnCart:hover {
+  color: white;
+  background-color: rgb(235, 198, 198);
+  border: none;
+}
+
+.btnCart:active {
+  color: white;
+  background-color: rgb(97, 92, 92);
+  transition: 0.3s;
+}
+
+.textOver {
+  color: white;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+}
+
+.modals {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  padding: 2em;
+  width: 100%;
+  background-color: rgb(231, 224, 215);
+}
+
+.portada img {
+  width: 100%;
+}
+
+.imgContact img {
+  height: 2em;
+  padding: 7px;
+}
+
+.whatsappContainer {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  cursor: pointer;
+}
+
+.btn {
+  border-radius: 2em;
+  cursor: pointer;
+}
+
+.dates {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  padding: 2em;
+  width: 100%;
+  background-color: rgb(231, 224, 215);
+}
+
+@media (min-width: 760px) {
+  .fornMariu {
+    font-size: xx-large;
+  }
+
+  .btnCart {
+    font-size: large;
+  }
+}
