@@ -3,7 +3,7 @@ import Modal from "./Modal";
 import "./Body.css";
 import { NavLink } from "react-router-dom";
 import WhatsappButton from "./WhatsappButton";
-
+import Portada from "../../img/portada.png";
 function Body() {
   return (
     <main>
@@ -15,7 +15,7 @@ function Body() {
               <button className="btnCart">Ver panes</button>
             </NavLink>
           </div>
-          <img src="../../img/portada.png" alt="panetone"></img>
+          <img src={Portada} alt="panetone"></img>
         </div>
         <div className="contact">
           <p>Ponte en contanto</p>
