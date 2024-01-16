@@ -4,7 +4,8 @@ function Footer() {
   return (
     <footer>
       <p className="pFooter">
-        ©2024 Mariu. Todos los derechos reservados. Realizado por APM Creative
+        ©2024 Mariu. Todos los derechos reservados. Realizado por Adaptive
+        Precision Media
       </p>
     </footer>
   );
