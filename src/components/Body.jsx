@@ -15,7 +15,7 @@ function Body() {
               <button className="btnCart">Ver panes</button>
             </NavLink>
           </div>
-          <img src="../../img/portada.png" alt="panetone"></img>
+          <img src="../../marielWebPage/img/portada.png" alt="panetone"></img>
         </div>
         <div className="contact">
           <p>Ponte en contanto</p>

@@ -30,7 +30,7 @@ function Header() {
       <NavLink to="/marielWebPage">
         <img
           className="imgHeader"
-          src="../../img/mariuHeader.png"
+          src="../../marielWebPage/img/mariuHeader.png"
           alt="Forn Mariu"
         />
       </NavLink>

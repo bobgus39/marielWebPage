@@ -11,7 +11,11 @@ const WhatsappButton = ({ phoneNumber, message }) => {
   return (
     <button className="btn" onClick={handleClick}>
       {" "}
-      <img className="whatsapp" src="../../img/whatsapp.png" alt="whatsapp" />
+      <img
+        className="whatsapp"
+        src="../../marielWebPage/img/whatsapp.png"
+        alt="whatsapp"
+      />
     </button>
   );
 };
